@@ -14,8 +14,8 @@ def load_json_as_documents(json_path):
 
     documents = []
     for entry in data:
-        if entry.get("section") != "증상":  # ✅ 증상 섹션 필터링
-            continue
+        # if entry.get("section") != "증상":  # ✅ 증상 섹션 필터링
+        #     continue
         
         content = entry.get("embedding_text") or entry.get("content")
         if not content:
