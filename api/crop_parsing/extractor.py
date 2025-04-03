@@ -8,9 +8,22 @@ import pandas as pd
 from datetime import datetime
 
 
-def extract_disease_name(html: str) -> str:
+def extract_disease_name(html: str, filename: str = "") -> str:
     soup = BeautifulSoup(html, 'html.parser')
     EXCLUDE_TITLES = {"요약문", "개요", "개요-정의", "정의", "목차"}
+
+    # ✅ 수동 예외 처리: 파일명 기반 지정
+    override_disease_names = {
+        "뼈근육_건막염": "건막염",
+        "눈_안외상(각막화상)": "안외상(각막화상)",
+        # 여기에 필요한 파일명 추가
+    }
+    if filename:
+        base_name = os.path.splitext(os.path.basename(filename))[0]
+        if base_name in override_disease_names:
+            disease_name = override_disease_names[base_name]
+            print(f"🔧 [수동지정] 병명: {disease_name}")
+            return disease_name
 
     disease_tag = None
 
@@ -33,7 +46,7 @@ def extract_disease_name(html: str) -> str:
                 re.search(r"[가-힣]", text)
             ):
                 disease_tag = tag
-                print("[⚠️] fontsize 22px 태그로 추출했습니다.")
+                print("[⚠️] font-size 22px 태그로 추출했습니다.")
                 break
 
     # 3. 콘텐츠명: 구개열 형식

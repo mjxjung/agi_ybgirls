@@ -15,7 +15,7 @@ def run_parsing_pipeline(input_json_path: str, output_dir: str, final_output_dir
 
         # 2. 병명 추출
         html = data['content']['html']
-        disease_name = extract_disease_name(html)
+        disease_name = extract_disease_name(html, filename=input_json_path)
         print(f"\n📌 파일: {input_json_path} | 병명: {disease_name}")
 
         # 3. 섹션 추출
