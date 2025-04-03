@@ -13,6 +13,10 @@ def embedding_symptoms(symptom):
     return embeddings_model.embed_query(symptom)
 
 def compute_disease_symptom_embeddings(json_folder, output_csv):
+    if os.path.exists(output_csv):
+        print(f"{output_csv} 파일이 이미 존재합니다. 생성을 건너뜁니다.")
+        return
+
     disease_embeddings = {}
     json_files = glob.glob(os.path.join(json_folder, "*.json"))
 
@@ -33,3 +37,5 @@ def compute_disease_symptom_embeddings(json_folder, output_csv):
         writer.writeheader()
         for disease, emb_str in disease_embeddings.items():
             writer.writerow({"disease": disease, "embedding": emb_str})
+
+    print(f"임베딩 데이터가 {output_csv} 파일에 저장되었습니다.")

@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 base_path = './data'
-json_folder = os.path.join(base_path, "json")
+json_folder = 'agi_ybgirls/Database/output/processed_final'
 embedding_csv_path = os.path.join(base_path, "disease_embeddings.csv")
 
 # 질병 임베딩 사전 저장 (최초 1회 실행)
@@ -23,15 +23,15 @@ patient_emb = embedding_symptoms(patient_symptoms)
 # 유사 질병 추천
 best_matches = similarity_symptoms(patient_emb, embedding_csv_path)
 
-top_disease = list(best_matches.keys())[0:2]
+top_disease = list(best_matches.keys())[0]
 
 doctor_info_df, doctor_recommendation_df = load_doctor_data(base_path)
 doctor_info = get_recommended_doctors(
-    top_disease[0],
+    top_disease,
     os.path.join(base_path, "doctor_recommendation.csv"),
     os.path.join(base_path, "doctor_info.csv")
 )
-summarize_symptoms(top_disease[1])
+
 # 증상 요약
 summary = summarize_symptoms(patient_symptoms, top_disease)
 
