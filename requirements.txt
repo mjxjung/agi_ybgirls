@@ -1,3 +1,4 @@
+appdirs==1.4.4
 beautifulsoup4==4.13.3
 bs4==0.0.2
 build==1.2.2.post1
@@ -19,10 +20,13 @@ jaraco.classes==3.4.0
 keyring==24.3.1
 more-itertools==10.6.0
 msgpack==1.1.0
+nest-asyncio==1.6.0
 numpy==2.2.4
 packaging==24.2
 pandas==2.2.3
+pdfCropMargins==2.2.0
 pexpect==4.9.0
+pillow==11.2.0
 pkginfo==1.12.1.2
 platformdirs==4.3.7
 poetry==1.8.5
@@ -30,6 +34,9 @@ poetry-core==1.9.1
 poetry-plugin-export==1.8.0
 ptyprocess==0.7.0
 pycparser==2.22
+pyee==11.1.1
+PyMuPDF==1.25.5
+pyppeteer==2.0.0
 pyproject_hooks==1.2.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
@@ -41,10 +48,12 @@ shellingham==1.5.4
 six==1.17.0
 soupsieve==2.6
 tomlkit==0.13.2
+tqdm==4.67.1
 trove-classifiers==2025.3.19.19
 typing_extensions==4.13.0
 tzdata==2025.2
-urllib3==2.3.0
+urllib3==1.26.20
 virtualenv==20.29.3
+websockets==10.4
 xattr==1.1.4
 zipp==3.21.0
