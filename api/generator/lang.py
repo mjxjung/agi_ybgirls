@@ -29,7 +29,7 @@ def load_disease_documents(json_path: str):
         Document의 page_content에는 각 섹션명과 내용을 포함하며, 
         metadata에는 "disease"가 저장됩니다.
     """
-    documents = []
+    documents = load_disease_documents(json_path)
     
     # 단일 파일인 경우 처리
     if not os.path.isdir(json_path):
@@ -159,7 +159,8 @@ def main():
 
     # 5-2. 임베딩 모델과 FAISS 벡터스토어 생성
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    vector_store = FAISS.from_documents(disease_documents, embeddings)
+    vector_store = FAISS.from_documents(documents, embeddings)
+
     # retrieval 시 상위 3개의 문서를 가져오도록 설정
     retriever = vector_store.as_retriever(search_kwargs={"k": 3})
 
