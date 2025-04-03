@@ -36,7 +36,6 @@ def get_top_disease_candidates(symptom: str) -> list[dict]:
         })
     return candidates
 
-
 def get_doctor_info_by_diseases(disease_list: list) -> dict:
     doctor_info_map = {}
     for disease in disease_list:
