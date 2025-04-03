@@ -39,7 +39,7 @@
     "disease": "유행각결막염",
     "section": "개요-경과 및 예후",
     "content": "결막 및 각막에 바이러스가 침투하여 감염이 된 후 보통 4~ 10일(평균 7일]의 장복기를 거쳐 임상 증상에 나타납니다. 대개 증상 발현 후 14일 정도의 경과를 거친후 자연 호전되나, 심한 경우 3-4주 이상 지속되기도 합니다. 대부분 별다른 후유증을 남기지 않고 2~3주 내로 호전되어 예후가 양호합니다.\n각결막염 호전 후에도 각막상피밑혼탁이 남는 경우가 있으나 대부분 자연 호전되며, 혼탁이 남더라도 시력에 영향을 주는 일은 드뭅니다. 심한 염증반응이 나타날경우, 드물게 영구적인 결막흉터, 결막붙음증(symblepharon, 염증으로 인해 눈꺼풀결막과 눈알결막이 붙는 것), 눈꺼풀처짐. 각막혼탁에 의한 시력저하를초래하는 경우가 있습니다.\n소아, 노인 등 면역력이 약한 환자나 콘택트렌즈 착용 등 안구표면의 손상 우려가 있는 환자에서는 세균 등에 의한 2차 감염이나 각막혼탁의 가능성이 증가하여좀 더 예후가 좋지 않을 수 있으므로 주의 깊게 관찰해야 합니다.",
-    "page": 2
+    "page": 1
   },
   {
     "disease": "유행각결막염",
@@ -69,7 +69,7 @@
     "disease": "유행각결막염",
     "section": "치료",
     "content": "현재까지 아데노바이러스에 대한 특별한 항바이러스제는 없으며, 인체의 면역에 의해 자연 치료되는 경우가 많습니다. 감기와 마찬가지로, 대증치료를 통해증상을 완화하고 2차 감염 등의 합병증을 막는 것이 치료의 목적입니다.",
-    "page": 3
+    "page": 2
   },
   {
     "disease": "유행각결막염",
@@ -105,7 +105,7 @@
     "disease": "유행각결막염",
     "section": "위험요인 및 예방",
     "content": "감염된 눈의 분비물이나 매개물(수건, 세면도구, 침구 등)을 만진 손을 통해 전염되는 경우가 가장 많습니다. 눈이 불편하다고 해서 감염된 눈을 만지지 않아야하고, 손을 자주 씻는 것이 중요합니다.\n병원 내에서 환자 사이에 빠르게 전염될 수 있으므로 의심 환자 발생 시 다른 환자와 접촉을 차단해야 하며, 환자가 접촉한 의자, 문손잡이 등도 철저히 소독해야합니다. 의료진의 손, 기구, 불결한 안약 등에 의해서도 전염될 수 있으므로 의료종사자의 철저한 주의 및 손씻기, 환자검진용 의자 및 세극등현미경, 안압계,시험용 콘택트렌즈를 비롯한 각종 기구의 소독, 안약 감염 관리 등이 중요합니다.",
-    "page": 4
+    "page": 3
   },
   {
     "disease": "유행각결막염",
@@ -115,32 +115,14 @@
   },
   {
     "disease": "유행각결막염",
-    "section": "Q. 아이가 수영장에 다녀온 후 유행성 결막염에 걸렸습니다. 전염을 어떻게 예방해야 하나요?",
-    "content": "A.\n유행성 결막염은 아주 쉽게 전염이 되기 때문에 주위 사람에게 옮기지 않도록 하는 것이 중요합니다.발병 후 약 2주 동안은 전염력이 있기 때문에 세심한주의가 필요합니다. 환자가 사용하는 물건(수건이나 세수대야 등)은 다른 사람이 같이 사용하지 않도록 합니다. 환자를 포함하여 모든 가족은 가급적 눈을만지지 말고 만진 전 후에는 반드시 손을 잘 씻어야 합니다.",
+    "section": "자주하는 질문",
+    "content": "Q. 아이가 수영장에 다녀온 후 유행성 결막염에 걸렸습니다. 전염을 어떻게 예방해야 하나요?\nA.\n유행성 결막염은 아주 쉽게 전염이 되기 때문에 주위 사람에게 옮기지 않도록 하는 것이 중요합니다.발병 후 약 2주 동안은 전염력이 있기 때문에 세심한주의가 필요합니다. 환자가 사용하는 물건(수건이나 세수대야 등)은 다른 사람이 같이 사용하지 않도록 합니다. 환자를 포함하여 모든 가족은 가급적 눈을만지지 말고 만진 전 후에는 반드시 손을 잘 씻어야 합니다.",
     "page": 4
   },
   {
     "disease": "유행각결막염",
     "section": "참고문헌",
-    "content": "1. 각막, Ch.13, 제 3판, 한국외안부연구회, 일조각\n2. American Academy of Ophthalmology. Epidemic keratoconjunctivitis. https://www.aao.org/image/epidemic-keratoconjunctivitis-2 AccessedAugust 4, 20203. Adenovirus-Associated Epidemic Keratoconjunctivitis Outbreaks ­ Four States, 2008-2010, Weekly, August 16, 2013, 62(32);637-641,http://www.kdca.gov/mmwr/preview/mmwrhtml/mm6232a1.htm4. Jin X, Ishiko H, Ha NT, et al. Molecular epidemiology of adenoviral conjunctivitis in Hanoi, Vietnam. Am J Ophthalmol. 2006; 142:1064-6.5. Kinchington PR, Romanowski EG, Gordon YJ. Prospects for adenoviral antivirals. J Antimicrob Chemother. 2005; 55:424-9.6. Azari AA, Barney NP. Conjunctivitis: A Systematic Review of Diagnosis and Treatment. JAMA. 2013;310(16):1721-1730.7. Sambursky, Robert, et al. The RPS adeno detector for diagnosing adenoviral conjunctivitis. Ophthalmology 113.10 (2006): 1758-1764.8. Sambursky, Robert, et al. Sensitivity and specificity of a point-of-care matrix metalloproteinase 9 immunoassay for diagnosing inflammationrelated to dry eye. JAMA ophthalmology 131.1(2013): 24-28.9. Romanowski EG, Pless P, Yates KA, et al. Topical cyclosporine A inhibits subepithelial immune infiltrates but also promotes viral shedding inexperimental adenovirus models. Cornea 2005;24:86-91.",
+    "content": "1. 각막, Ch.13, 제 3판, 한국외안부연구회, 일조각\n2. American Academy of Ophthalmology. Epidemic keratoconjunctivitis. https://www.aao.org/image/epidemic-keratoconjunctivitis-2 AccessedAugust 4, 20203. Adenovirus-Associated Epidemic Keratoconjunctivitis Outbreaks ­ Four States, 2008-2010, Weekly, August 16, 2013, 62(32);637-641,http://www.kdca.gov/mmwr/preview/mmwrhtml/mm6232a1.htm4. Jin X, Ishiko H, Ha NT, et al. Molecular epidemiology of adenoviral conjunctivitis in Hanoi, Vietnam. Am J Ophthalmol. 2006; 142:1064-6.5. Kinchington PR, Romanowski EG, Gordon YJ. Prospects for adenoviral antivirals. J Antimicrob Chemother. 2005; 55:424-9.6. Azari AA, Barney NP. Conjunctivitis: A Systematic Review of Diagnosis and Treatment. JAMA. 2013;310(16):1721-1730.7. Sambursky, Robert, et al. The RPS adeno detector for diagnosing adenoviral conjunctivitis. Ophthalmology 113.10 (2006): 1758-1764.8. Sambursky, Robert, et al. Sensitivity and specificity of a point-of-care matrix metalloproteinase 9 immunoassay for diagnosing inflammationrelated to dry eye. JAMA ophthalmology 131.1(2013): 24-28.9. Romanowski EG, Pless P, Yates KA, et al. Topical cyclosporine A inhibits subepithelial immune infiltrates but also promotes viral shedding inexperimental adenovirus models. Cornea 2005;24:86-91.\n본 공공저작물은 공공누리 \"출처표시+상업적이용금지+변경금지\" 조건에 따라 이용할 수 있습니다.\n 목록\n개인정보처리방침 개인정보이용안내 저작권정책 및 웹접근성\n[ 28159 ] 충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 내 질병관리청문의사항: 02-2030-6602 (평일 9:00-17:00, 12:00-13:00 제외) / 관리자 이메일 : nhis@korea.kr\nCOPYRIGHT @ 2024 질병관리청. ALL RIGHT RESERVED\n※ 본 페이지에서 제공하는 내용은 참고사항일 뿐 게시물에 대한 법적책임은 없음을 밝혀드립니다. 자세한 내용은 전문가와 상담하시기 바랍니다.\n해외기관  유관기관  정부기관 ",
     "page": 4
-  },
-  {
-    "disease": "유행각결막염",
-    "section": "본 공공저작물은 공공누리 \"출처표시+상업적이용금지+변경금지\" 조건에 따라 이용할 수 있습니다.",
-    "content": " 목록\n개인정보처리방침 개인정보이용안내 저작권정책 및 웹접근성",
-    "page": 5
-  },
-  {
-    "disease": "유행각결막염",
-    "section": "[ 28159 ] 충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 내 질병관리청문의사항: 02-2030-6602 (평일 9:00-17:00, 12:00-13:00 제외) / 관리자 이메일 : nhis@korea.kr",
-    "content": "COPYRIGHT @ 2024 질병관리청. ALL RIGHT RESERVED",
-    "page": 5
-  },
-  {
-    "disease": "유행각결막염",
-    "section": "※ 본 페이지에서 제공하는 내용은 참고사항일 뿐 게시물에 대한 법적책임은 없음을 밝혀드립니다. 자세한 내용은 전문가와 상담하시기 바랍니다.",
-    "content": "해외기관  유관기관  정부기관 ",
-    "page": 5
   }
 ]

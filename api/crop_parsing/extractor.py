@@ -64,12 +64,15 @@ def extract_sections(data: dict, disease_name: str) -> list[dict]:
     Returns:
         list[dict]: 섹션별로 나눈 병명, 제목, 본문, 페이지 정보를 담은 리스트
     """
+    # 기본 설정
+    MAX_HEADING_LENGTH = 20
+    first_page_font_threshold = 22
+    other_page_font_threshold = 18
+
     chunks = []
     current_section = None
     current_text = []
-
-    first_page_font_threshold = 22
-    other_page_font_threshold = 18
+    current_page = None
 
     for elem in data.get('elements', []):
         html = elem.get("content", {}).get("html", "")
@@ -78,13 +81,12 @@ def extract_sections(data: dict, disease_name: str) -> list[dict]:
         category = elem.get("category", "")
         style = ""
 
-        # style 정보 추출
+        # 스타일에서 font-size 추출
         soup = BeautifulSoup(html, "html.parser")
         tag = soup.find()
         if tag:
             style = tag.get("style", "")
-
-        # font-size 추출
+        
         font_size = 0
         if "font-size:" in style:
             try:
@@ -92,20 +94,22 @@ def extract_sections(data: dict, disease_name: str) -> list[dict]:
             except:
                 pass
 
-        # 페이지별 기준 적용
+        # heading 조건
         threshold = first_page_font_threshold if page == 1 else other_page_font_threshold
-        is_heading = (category.startswith("heading") or font_size >= threshold)
+        is_heading = (
+            (category.startswith("heading") or font_size >= threshold)
+            and len(text) <= MAX_HEADING_LENGTH
+        )
 
         if not text:
             continue
 
-        # ✅ <그림 ...> 섹션 추출
+        # ✅ 그림 처리 예외
         if text.startswith("<그림") and ">" in text:
             match = re.match(r"<(.*?)>(.*)", text)
             if match:
                 fig_section = match.group(1).strip()
                 fig_content = match.group(2).strip()
-
                 chunks.append({
                     "disease": disease_name,
                     "section": fig_section,
@@ -119,11 +123,13 @@ def extract_sections(data: dict, disease_name: str) -> list[dict]:
                 chunks.append({
                     "disease": disease_name,
                     "section": current_section,
-                    "content": "\n".join(current_text),
-                    "page": page
+                    "content": "\n".join(current_text).strip(),
+                    "page": current_page
                 })
                 current_text = []
+
             current_section = text
+            current_page = page
         else:
             current_text.append(text)
 
@@ -132,11 +138,11 @@ def extract_sections(data: dict, disease_name: str) -> list[dict]:
         chunks.append({
             "disease": disease_name,
             "section": current_section,
-            "content": "\n".join(current_text),
-            "page": page
+            "content": "\n".join(current_text).strip(),
+            "page": current_page
         })
 
-    return chunks
+        return chunks
 
 
 def save_chunks_to_file(chunks: list[dict], folder_path: str, disease_name: str) -> None:
@@ -179,6 +185,8 @@ def process_sections(chunks: list[dict]) -> list[dict]:
     - '자주하는 질문' 섹션을 Q/A 쌍으로 분리
     - 섹션명이 '그림'으로 시작하면 제외
     - 본문에 (그림...) 형태가 있으면 삭제
+    - 특정 불필요 문구 제거
+    - 요약문이 등록일자일 경우 제거
 
     Parameters:
         chunks (list[dict]): 저장된 섹션 정보 리스트
@@ -186,24 +194,57 @@ def process_sections(chunks: list[dict]) -> list[dict]:
     Returns:
         list[dict]: 후처리된 섹션 리스트
     """
+
     def split_qa_section(disease, content, page):
         qa_chunks = []
-        content = content.replace("A.\\n", "A.\n").replace("\\n", "\n")
-        qa_blocks = re.split(r"(Q\..*?)\nA\.", content)
-        qa_blocks = [b.strip() for b in qa_blocks if b.strip()]
 
-        for i in range(0, len(qa_blocks) - 1, 2):
-            question = qa_blocks[i]
-            answer = qa_blocks[i + 1]
+        # 줄 기준으로 자르기
+        lines = content.splitlines()
+
+        question = None
+        answer_lines = []
+
+        for line in lines:
+            line = line.strip()
+            if line.startswith("Q."):
+                # 이전 QA 쌍 저장
+                if question and answer_lines:
+                    qa_chunks.append({
+                        "disease": disease,
+                        "section": question,
+                        "content": "\n".join(answer_lines).strip(),
+                        "page": page
+                    })
+                    answer_lines = []
+
+                question = line
+
+            elif line.startswith("A") or line.startswith("A."):
+                # A 라인 자체는 저장하지 않고, 다음 줄부터 answer 시작
+                continue
+
+            elif question:
+                answer_lines.append(line)
+
+        # 마지막 QA 쌍 저장
+        if question and answer_lines:
             qa_chunks.append({
                 "disease": disease,
                 "section": question,
-                "content": answer,
+                "content": "\n".join(answer_lines).strip(),
                 "page": page
             })
+
         return qa_chunks
 
-    PUBLIC_NOTICE = '본 공공저작물은 공공누리 "출처표시+상업적이용금지+변경금지" 조건에 따라 이용할 수 있습니다.'
+    REMOVE_SECTIONS = {
+        '본 공공저작물은 공공누리 "출처표시+상업적이용금지+변경금지" 조건에 따라 이용할 수 있습니다.',
+        "개인정보처리방침 개인정보이용안내 저작권정책 및 웹접근성",
+        "※ 본 페이지에서 제공하는 내용은 참고사항일 뿐 게시물에 대한 법적책임은 없음을 밝혀드립니다. 자세한 내용은 전문가와 상담하시기 바랍니다.",
+        "[ 28159 ] 충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 내 질병관리청문의사항: 02-2030-6602 (평일 9:00-17:00, 12:00-13:00 제외) / 관리자 이메일 : nhis@korea.kr",
+        "참고문헌"
+    }
+
     new_chunks = []
 
     for chunk in chunks:
@@ -211,14 +252,19 @@ def process_sections(chunks: list[dict]) -> list[dict]:
         section = chunk["section"].strip()
         content = chunk["content"].strip()
 
-        # ❌ 섹션명이 질병명과 같거나 공공누리 문구이거나 '그림'으로 시작 → 제외
-        if section == disease or section == PUBLIC_NOTICE or section.startswith("그림"):
+        # ❌ 제거 조건
+        if (
+            section == disease or
+            section.startswith("그림") or
+            section in REMOVE_SECTIONS or
+            (section == "요약문" and content.startswith("등록일자"))
+        ):
             continue
 
-        # ✅ 본문에서 (그림 ...) 형태 제거
+        # ✅ 본문에서 (그림...) 형태 제거
         cleaned_content = re.sub(r"\(그림[^\)]*\)", "", content).strip()
 
-        # 🔄 '자주하는 질문' 섹션 → Q/A 분리
+        # 🔄 자주하는 질문 → Q/A 분리
         if section == "자주하는 질문":
             qa_split = split_qa_section(
                 disease=disease,

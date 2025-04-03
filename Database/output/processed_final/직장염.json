@@ -2,12 +2,6 @@
   {
     "disease": "직장염",
     "section": "요약문",
-    "content": "등록일자 : 2021-07-28 ■ 업데이트: 2024-11-07 ■ 조회 : 5763 · 정보신청 : 79",
-    "page": 1
-  },
-  {
-    "disease": "직장염",
-    "section": "요약문",
     "content": "\"이것만은 꼭 기억하세요!\n· 직장염은 직장점막에 염증이 생기는 질환으로, 염증장질환, 감염, 방사선, 항생제, 수술 등이 원인이 될 수 있습니다.· 주요 증상은 설사와 혈변이며, 잔변감과 복통도 흔히 나타나고, 고열이 있으면 합병증을 의심해야 합니다.· 내시경 검사를 통해 정확히 진단할 수 있으며, 이 검사는 직장암 등 다른 원인을 배제하는 데도 중요합니다.· 치료는 원인에 따라 다르며, 일반적으로 내과적 약물치료와 수액요법이 기본이고, 증상이 심하면 입원치료나 수술이 필요할 수 있습니다.· 규칙적인 식생활과 건강한 생활습관을 유지하고, 정기적으로 내시경 검사를 받아 직장암 등 합병증을 예방하는 것이 중요합니다.",
     "page": 1
   },
@@ -33,7 +27,7 @@
     "disease": "직장염",
     "section": "증상",
     "content": "직장염의 대표적인 증상은 설사와 혈변이며, 잔변감이나 복통도 흔히 나타나는 증상입니다. 이러한 증상은 급성으로 발생했다가 사라질 수도 있으나 만성으로지속될 수도 있습니다. 만성으로 지속될 경우에는 피로감, 구역, 구토, 식욕 감소, 체중 감소, 빈혈 및 미열 등 전신 증상이 동반될 수 있습니다. 미열이 아닌 고열이있는 경우에는 합병증을 의심해야 합니다.",
-    "page": 2
+    "page": 1
   },
   {
     "disease": "직장염",
@@ -57,18 +51,12 @@
     "disease": "직장염",
     "section": "Q. 궤양대장염은 세균성 장염과 어떻게 다른가요?",
     "content": "장염을 일으키는 세균의 종류는 매우 많습니다. 대부분의 세균성 장염은 증상이 갑자기 나타나고 짧은 기간 내에 소실되는 것이 특징이며, 대장내시경 검사등으로 궤양대장염과 구별할 수 있습니다. 그러나 어떤 세균성 장염은 궤양대장염과 매우 비슷한 증상을 보이고, 때에 따라서는 여러 가지 검사방법을동원하여도 구별하기 어려운 경우도 있습니다. 대변의 세균배양검사로 세균성 장염을 진단할 수 있지만, 궤양대장염이 있는 환자도 이차적으로 세균에감염될 수 있으므로 항상 구별할 수 있는 것은 아닙니다. 이런 경우에는 항생제를 투여하여 치료에 대한 반응을 관찰하거나 일정 시간이 지난 후 검사를반복하여 감별하기도 합니다.",
-    "page": 3
+    "page": 2
   },
   {
     "disease": "직장염",
     "section": "Q. 항생제성 직장염은 왜 생기나요?",
     "content": "A.\n우리 장 안에 살고 있는 유익한 장내세균이 항생제 치료로 소멸되고 균 조성의 균형이 깨지게 되면, 해를 끼칠 수 있는 세균이 증식할 수 있으며 이 중에는장내 염증을 일으키는 균주가 필요 이상으로 많아 질 수 있습니다. 특히 클로스트리듐이라는 유해한 균이 많아질 경우 이 균에서 나오는 독성물질에 의해대장 혹은 직장에 염증이 발생하게 됩니다. 그러나 항생제를 사용한 모두에서 다 나타나는 것은 아니고, 모든 항생제가 다 발생시키는 것도 아닙니다.",
-    "page": 3
-  },
-  {
-    "disease": "직장염",
-    "section": "참고문헌",
-    "content": "1. Bressler B, Marshall JK, Bernstein CN, et al. Clinical practice guidelines for the medical management of nonhospitalized ulcerative colitis: theToronto consensus. Gastroenterology 2015; 148:1035.\n2. Heida A, Park KT, van Rheenen PF. Clinical Utility of Fecal Calprotectin Monitoring in Asymptomatic Patients with Inflammatory Bowel Disease:A Systematic Review and Practical Guide. Inflamm Bowel Dis 2017; 23:894.3. Lenz L, Rohr R, Nakao F, et al. Chronic radiation proctopathy: A practical review of endoscopic treatment. World J Gastrointest Surg 2016;8:151.\n4. Lichtenstein GR, Loftus EV, Isaacs KL, et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults. Am J Gastroenterol 2018;113:481.\n5. Mayer KH. Sexually transmitted diseases in men who have sex with men. Clin Infect Dis 2011; 53 Suppl 3\n6. Paquette IM, Vogel JD, Abbas MA, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Treatment of\n.\nChronic Radiation Proctitis. Dis Colon Rectum 2018; 61:1135.\n7. Szczepkowski M, Kobus A, Borycka K. How to treat diversion colitis?--Current state of medical knowledge, own research and experience. Acta\nChir Iugosl 2008; 55:77.\n8. Tabaja L, Sidani SM. Management of Radiation Proctitis. Dig Dis Sci 2018; 63:2180.\n9. Vries HJ, Zingoni A, White JA, et al. 2013 European Guideline on the management of proctitis, proctocolitis and enteritis caused by sexuallytransmissible pathogens. Int J STD AIDS 2014; 25:465.\n10. Wu XR, Liu XL, Katz S, Shen B. Pathogenesis, diagnosis, and management of ulcerative proctitis, chronic radiation proctopathy, and diversionproctitis. Inflamm Bowel Dis 2015; 21:703.",
     "page": 3
   }
 ]
