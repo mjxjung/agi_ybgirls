@@ -22,12 +22,12 @@ def run_parsing_pipeline(input_json_path: str, output_dir: str, final_output_dir
         chunks = extract_sections(data, disease_name)
         print(f"  🔹 섹션 수: {len(chunks)}")
 
-        # 4. 1차 저장
-        save_chunks_to_file(chunks, output_dir, disease_name)
+        # 4. 1차 저장 (원본 파일 이름도 넘겨줌)
+        save_chunks_to_file(chunks, output_dir, disease_name, original_filename=input_json_path)
 
-        # 5. 후처리 (Q/A 분리 등)
+        # 5. 후처리
         processed_chunks = process_sections(chunks)
-        save_chunks_to_file(processed_chunks, final_output_dir, disease_name)
+        save_chunks_to_file(processed_chunks, final_output_dir, disease_name, original_filename=input_json_path)
 
     except Exception as e:
         print(f"❌ 에러 발생 - 파일: {input_json_path}\n{e}")
