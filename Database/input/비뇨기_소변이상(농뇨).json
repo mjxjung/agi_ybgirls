@@ -1,0 +1,1195 @@
+{
+  "api": "2.0",
+  "content": {
+    "html": "<h1 id='0' style='font-size:22px'>소변이상(농뇨)</h1>\n<table id='1' style='font-size:14px'><tr><td></td><td>개요</td></tr><tr><td></td><td>등록일자 : 2021-07-21 ■ 업데이트: 2022-03-03 ■ 조회 : 9991  정보신청 :80</td></tr></table>\n<br><figure id='2'><img style='font-size:14px' alt=\"건강담기 수정 문의\" data-coord=\"top-left:(933,0); bottom-right:(1216,34)\" /></figure>\n<h1 id='3' style='font-size:20px'>개요-정의</h1>\n<br><p id='4' data-category='paragraph' style='font-size:18px'>소변현미경검사에서 염증세포가 고배율에서 5개 이상 보에는 경우를 농뇨라고 합니다.</p>\n<h1 id='5' style='font-size:20px'>개요-원인</h1>\n<h1 id='6' style='font-size:16px'>1. 세균감염</h1>\n<br><p id='7' data-category='paragraph' style='font-size:18px'>소변검사에서 동뇨가 보이는 경우는 공팔, 요관 방광, 전립선 그리고 요도 등의 요로에서 세균성 감염이 있는 경우가 가장 혼합니다. 세균성 요로감염은<br>상부요로감염과 하부요로감염으로 나눌 수 있습니다. 하부요로 감염은 방광염이나 요도염을 말하고, 상부요로 감염은 콤팔까지 염증이 진행한 신우신염 을<br>말합니다. 상부요로감염과 하부요로감염을 나누는 이유는 증상, 약물 치료기간 그리고 약물의 종류에 있어서 차이가 있기 때문입니다.</p>\n<h1 id='8' style='font-size:16px'>2. 요로 결핵</h1>\n<br><p id='9' data-category='paragraph' style='font-size:18px'>결핵군이 신장 또는 요로로 들어가면 신장결핵 또는 요로결핵이 발생하여, 동뇨가 나올 수 있습니다.</p>\n<p id='10' data-category='paragraph' style='font-size:18px'>3. 콩팥유두괴사 (Papillary necrosis)</p>\n<br><p id='11' data-category='paragraph' style='font-size:18px'>진통소염제를 오래 복용하면, 소변이 농축되는 신장의 유두부에 손상이 생길 수있습니다. 이렇게 콩팥유두괴사(Papillary necrosis)가 발생하면, 세균 검사는<br>음성이지만 소변검사에서 염증 세포가 계속 나올 수 있습니다. 장기적으로 진통소염제를 먹는 경우에는 주의가 필요합니다.</p>\n<p id='12' data-category='paragraph' style='font-size:16px'>4. 급성 사구체신염</p>\n<br><p id='13' data-category='paragraph' style='font-size:18px'>사구체신염 은 면역학적 기전으로 콩팔에 염증이 발생하는 질환으로, 흔히 혈뇨나 단백뇨가 발생합니다. 콩팥내 사구체 염증이 심할 경우, 염증세포가 소변에서<br>검출되어 농뇨가 발생할 수 있습니다.</p>\n<p id='14' data-category='paragraph' style='font-size:16px'>5. 급성 요세관사이질 질환</p>\n<br><p id='15' data-category='paragraph' style='font-size:18px'>요세관사이질 질환은 콩팔내 요세관이나 사이질에 염증이 발생하는 질환으로, 요세관 혹은 사이질에 염증을 일으키는 약물이나 물질이 침착하거나, 알레르기<br>반응으로 호산구 등이 침착할 때 생길 수 있습니다. 이러한 염증이 심할 경우, 염증세포가 소변에서 검출되어 동뇨가 발생할 수 있습니다.</p>\n<p id='16' data-category='paragraph' style='font-size:18px'>6. 콩팥경색 또는 요관폐쇄</p>\n<br><p id='17' data-category='paragraph' style='font-size:18px'>심장으로 가는 관상동맥이 막히면 심근경색이 발생하듯이, 콩팥으로 가는 공팔동맥이 막히면, 콩팥경색이 발생할 수 있습니다. 막힌 부위 원위부로 괴사 및<br>검색에 생기므로, 여기서 발생한 염증으로 인한 세포들이 소변으로 검출될 수 있습니다? 또한, 결석이나 종양, 혈뇨 등의 요관 속의 병변으로 요관이 막히거나,<br>요관 주위 섬유증, 종양 등의 영향으로 요관 밖의 병변으로 요관이 막히는 경우 요관폐쇄가 발생할 수 있습니다. 요관이 폐쇄가되면 근위부로는 소변 역류 등으로<br>인해 염증이 발생하고 소변검사에서 농뇨가 발생할 수 있습니다.</p>\n<h1 id='18' style='font-size:22px'>진단 및검사</h1>\n<br><p id='19' data-category='paragraph' style='font-size:16px'>1. 진단방법</p>\n<br><p id='20' data-category='paragraph' style='font-size:18px'>공팔 질환이 있는 경우에 대부분 소변검사에서 이상 소견이 동반되기 때문에 소변검사 이상 소견은 콩팔 질환이 있는지를 알 수 있는 중요한 단서가 됩니다. 특히<br>소변검사는 저렴하고, 침습적이지 않고 쉬운 검사이며, 반복적으로 검사가 가능하므로 콩팥 질환을 알아낼 수 있는 중요한 방법입니다.</p>\n<br><p id='21' data-category='paragraph' style='font-size:18px'>소변검사에서 정확한 결과를 얻기 위해서는 소변을 적절하게 받는 것이 아주 중요합니다. 일반 소변검사를 할 때 첫 소변 100-200 mil 정도는 변기에 누고, 중간<br>소변을 컵에 받은 다음에 검체용기(시험란)에 담아주는 것이 좋습니다. 소변을 받는 시간은 아침 첫 소변이 좋습니다. 생리가 있는 여성인 경우에 피가 소변에<br>물어나올 수 있으므로 생리가 끝난 수 일 후에 실시하는 것이 정확합니다.</p>\n<p id='22' data-category='paragraph' style='font-size:18px'>2. 진단 후 추가 검사가 필요한 경우</p>\n<br><p id='23' data-category='paragraph' style='font-size:18px'>소변검사에서 농뇨가 나오는 경우는 소변배양검사를 같이 시행하여 어떤 세균에 의한감염인지를 알면 도움이 되는 경우가 있으므로 병원에 내원해서 배양검사를<br>실시할지를 상의해야 합니다. 일부 콩팥병에서는 소변검사가 정상으로 나오는 경우가 있습니다. 예를 들어, 급성 신손상, 요로폐쇄, 고칼슘혈증, 다발성골수증과<br>동반된 콩팥병, 혈관염, 신장 경색 등이 있습니다. 따라서 소변검사에서 이상소견이 있는 경우에 당연히 콩팥 병 등에 대해서 검사를 해야 하지만 소변검사에서<br>이상 소견이 없다고 하더라도, 동반된 증상이나 위험인자가 있다면 추가적인 혈액검사, 영상 검사를 통해서 콩팥병을 확인하는 것이 필요할 수 있습니다.</p>\n<h1 id='24' style='font-size:20px'>연관 증상</h1>\n<br><p id='25' data-category='paragraph' style='font-size:18px'>세균생 요로감염인 경우에는 증상에 따라 하부요로감염인지 상부요로감염인지 구별할 수 있습니다. 하부요로감염인 방광염은 하복부 통증이나 무지근한 느낌,<br>자주 소변을 보는 증상, 소변을 본 후에도 개운하지 않은 증상, 소변 볼 때 따끔거림 등이 있습니다. 상부요로감염인 신우산염에서는 방광염에서 볼 수 있는 증상<br>이외에도 옆구리 통증과 발열, 구역 구토 등이 동반될 수 있습니다. 한편, 하부 요로 증상이 없이 상부요로감염이 발병하는 경우도 있어 가끔 감기 몸살로<br>오인하고 적절한 치료를 받지 못하는 경우도 있으므로 주의해야 합니다.</p>\n<br><p id='26' data-category='paragraph' style='font-size:18px'>요로 결핵인 경우에는 특별한 증상이 없는 경우가 많고 체중 감소 등의 소견이 보일 수도 있습니다. 급성사구체염에서는 발열, 전신부증, 혈뇨 및 단백뇨 등이<br>동반되기도 하고, 콩팥경색 또는 요관폐쇄인 경우에는 손상이 발생한 쪽의 옆구리 통증이 동반되기도 합니다.</p>\n<h1 id='27' style='font-size:20px'>치료</h1>\n<br><p id='28' data-category='paragraph' style='font-size:18px'>세균생 요로감염인 경우에는 경구 항생제치료를 받으면 대부분 호전되기 때문에 병원을 방문하여 항생제 치료를 받으시는 것이 좋습니다. 신우산염에 의해<br>발열이 심하면 입원해서 주사 항생제 치료를 받아야 합니다. 이외에 농뇨와 동반된 원인에 대한 치료를 해야 합니다.</p>\n<br><p id='29' data-category='paragraph' style='font-size:18px'>간혹 소변검사에서 염증세포가 보이면서 소변배양검사에서 세균이 자라지만 요로감염과 관련된 증상이 없는 경우가 있는데 이런 경우를 무증상성 세균뇨라고<br>합니다. 무증삼성 세균뇨는 특별한 경우 (임산부, 비뇨기계 조작이 예정된 환자 등)를 제외하고는 항생제 등 치료가 필요 없는 경우가 많습니다. 따라서<br>소변검사에서 농뇨가 있다고 해서 반드시 항생제 등의 치료를 하는 것이 아니므로, 병원에서 항생제 치료 여부에 대하여 상의해야 합니다.</p>\n<br><h1 id='30' style='font-size:22px'>참고문헌</h1>\n<p id='31' data-category='list' style='font-size:18px'>1. 대한신장학회 (2017). 소변검사와 신기능검사 PART 02.Chapter 01 최규복, 임상신장학 (제2판). 군자출판사.<br>2. 대한신장학회 (2021.09.01). 사구체신염 이해하기. https://player.vimeo.com/video/383944950<br>3. 오윤규, 양철우, 김영림, 강신욱, 박철희, 김윤수, 이은영, 임준수 (2016). Clinical characteristics and outcomes of renal infarction. Am J kidney Dis,<br>67(2), 243-50.<br>4. Centers for Disease Control and Prevention (CDC) (2021). Urinary Tract Infection. https://www.cdc.gov/antibiotic-use/uti.html<br>5. Gilbert, J.& Peter, N. (2015). Sterile Pyuria. The New England Journal of Medicine. 372,1048-1054.<br>6. Manuel, P.& Ester, G. (2010). Acute interstitial nephritis. Kidney International. 77, 956-961.</p>\n<p id='32' data-category='paragraph' style='font-size:18px'> 관련 건강정보</p>\n<p id='33' data-category='paragraph' style='font-size:16px'>소변이상(단백뇨) 소변이상(당뇨) 소변이상(혈뇨)</p>\n<p id='34' data-category='paragraph' style='font-size:20px'>본 공공저작물은 공공누리 \"출처표시+상업적이용금지+변경금지\" 조건에 따라 이용할 수 있<br>습니다.</p>\n<figure id='35'><img style='font-size:14px' alt=\" 목록\" data-coord=\"top-left:(1637,598); bottom-right:(1727,637)\" /></figure>\n<p id='36' data-category='paragraph' style='font-size:18px'>개인정보처리방침 개인정보이용안내 저작권정책 및 웹접근성</p>\n<p id='37' data-category='list' style='font-size:16px'>[ 28159 ] 충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 내 질병관리청<br>문의사항: 02-2030-6602 (평일 9:00-17:00, 12:00-13:00 제외) / 관리자 이메일 : nhis@korea.kr<br>COPYRIGHT @ 2024 질병관리청. ALL RIGHT RESERVED</p>\n<br><p id='38' data-category='paragraph' style='font-size:18px'>해외기관  유관기관  정부기관</p>\n\n<figure id='40'><img alt=\"\" data-coord=\"top-left:(2152,870); bottom-right:(2260,951)\" /><br><figcaption id='39' style='font-size:18px'></figcaption></figure>\n<br><footer id='41' style='font-size:18px'>※ 본 페이지에서 제공하는 내용은 참고사항일 뿐 게시물에 대한 법적책임은 없음을 밝혀드립니다. 자세한 내용은 전문가와 상담하시기 바랍니다.</footer>",
+    "markdown": "",
+    "text": ""
+  },
+  "elements": [
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='0' style='font-size:22px'>소변이상(농뇨)</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0336,
+          "y": 0.0141
+        },
+        {
+          "x": 0.1284,
+          "y": 0.0141
+        },
+        {
+          "x": 0.1284,
+          "y": 0.0325
+        },
+        {
+          "x": 0.0336,
+          "y": 0.0325
+        }
+      ],
+      "id": 0,
+      "page": 1
+    },
+    {
+      "category": "table",
+      "content": {
+        "html": "<table id='1' style='font-size:14px'><tr><td></td><td>개요</td></tr><tr><td></td><td>등록일자 : 2021-07-21 ■ 업데이트: 2022-03-03 ■ 조회 : 9991  정보신청 :80</td></tr></table>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0341,
+          "y": 0.0408
+        },
+        {
+          "x": 0.5581,
+          "y": 0.0408
+        },
+        {
+          "x": 0.5581,
+          "y": 0.0895
+        },
+        {
+          "x": 0.0341,
+          "y": 0.0895
+        }
+      ],
+      "id": 1,
+      "page": 1
+    },
+    {
+      "base64_encoding": "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",
+      "category": "figure",
+      "content": {
+        "html": "<br><figure id='2'><img style='font-size:14px' alt=\"건강담기 수정 문의\" data-coord=\"top-left:(933,0); bottom-right:(1216,34)\" /></figure>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.4765,
+          "y": 0.0004
+        },
+        {
+          "x": 0.6208,
+          "y": 0.0004
+        },
+        {
+          "x": 0.6208,
+          "y": 0.0159
+        },
+        {
+          "x": 0.4765,
+          "y": 0.0159
+        }
+      ],
+      "id": 2,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='3' style='font-size:20px'>개요-정의</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0338,
+          "y": 0.1002
+        },
+        {
+          "x": 0.0885,
+          "y": 0.1002
+        },
+        {
+          "x": 0.0885,
+          "y": 0.115
+        },
+        {
+          "x": 0.0338,
+          "y": 0.115
+        }
+      ],
+      "id": 3,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='4' data-category='paragraph' style='font-size:18px'>소변현미경검사에서 염증세포가 고배율에서 5개 이상 보에는 경우를 농뇨라고 합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0345,
+          "y": 0.1221
+        },
+        {
+          "x": 0.3494,
+          "y": 0.1221
+        },
+        {
+          "x": 0.3494,
+          "y": 0.1353
+        },
+        {
+          "x": 0.0345,
+          "y": 0.1353
+        }
+      ],
+      "id": 4,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='5' style='font-size:20px'>개요-원인</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0332,
+          "y": 0.1535
+        },
+        {
+          "x": 0.0883,
+          "y": 0.1535
+        },
+        {
+          "x": 0.0883,
+          "y": 0.1679
+        },
+        {
+          "x": 0.0332,
+          "y": 0.1679
+        }
+      ],
+      "id": 5,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='6' style='font-size:16px'>1. 세균감염</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0333,
+          "y": 0.1761
+        },
+        {
+          "x": 0.079,
+          "y": 0.1761
+        },
+        {
+          "x": 0.079,
+          "y": 0.1876
+        },
+        {
+          "x": 0.0333,
+          "y": 0.1876
+        }
+      ],
+      "id": 6,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='7' data-category='paragraph' style='font-size:18px'>소변검사에서 동뇨가 보이는 경우는 공팔, 요관 방광, 전립선 그리고 요도 등의 요로에서 세균성 감염이 있는 경우가 가장 혼합니다. 세균성 요로감염은<br>상부요로감염과 하부요로감염으로 나눌 수 있습니다. 하부요로 감염은 방광염이나 요도염을 말하고, 상부요로 감염은 콤팔까지 염증이 진행한 신우신염 을<br>말합니다. 상부요로감염과 하부요로감염을 나누는 이유는 증상, 약물 치료기간 그리고 약물의 종류에 있어서 차이가 있기 때문입니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0327,
+          "y": 0.1927
+        },
+        {
+          "x": 0.6218,
+          "y": 0.1927
+        },
+        {
+          "x": 0.6218,
+          "y": 0.2285
+        },
+        {
+          "x": 0.0327,
+          "y": 0.2285
+        }
+      ],
+      "id": 7,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='8' style='font-size:16px'>2. 요로 결핵</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0329,
+          "y": 0.2499
+        },
+        {
+          "x": 0.0821,
+          "y": 0.2499
+        },
+        {
+          "x": 0.0821,
+          "y": 0.26
+        },
+        {
+          "x": 0.0329,
+          "y": 0.26
+        }
+      ],
+      "id": 8,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='9' data-category='paragraph' style='font-size:18px'>결핵군이 신장 또는 요로로 들어가면 신장결핵 또는 요로결핵이 발생하여, 동뇨가 나올 수 있습니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.034,
+          "y": 0.2657
+        },
+        {
+          "x": 0.3958,
+          "y": 0.2657
+        },
+        {
+          "x": 0.3958,
+          "y": 0.2788
+        },
+        {
+          "x": 0.034,
+          "y": 0.2788
+        }
+      ],
+      "id": 9,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='10' data-category='paragraph' style='font-size:18px'>3. 콩팥유두괴사 (Papillary necrosis)</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0337,
+          "y": 0.2992
+        },
+        {
+          "x": 0.1741,
+          "y": 0.2992
+        },
+        {
+          "x": 0.1741,
+          "y": 0.3106
+        },
+        {
+          "x": 0.0337,
+          "y": 0.3106
+        }
+      ],
+      "id": 10,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='11' data-category='paragraph' style='font-size:18px'>진통소염제를 오래 복용하면, 소변이 농축되는 신장의 유두부에 손상이 생길 수있습니다. 이렇게 콩팥유두괴사(Papillary necrosis)가 발생하면, 세균 검사는<br>음성이지만 소변검사에서 염증 세포가 계속 나올 수 있습니다. 장기적으로 진통소염제를 먹는 경우에는 주의가 필요합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0333,
+          "y": 0.3154
+        },
+        {
+          "x": 0.6214,
+          "y": 0.3154
+        },
+        {
+          "x": 0.6214,
+          "y": 0.34
+        },
+        {
+          "x": 0.0333,
+          "y": 0.34
+        }
+      ],
+      "id": 11,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='12' data-category='paragraph' style='font-size:16px'>4. 급성 사구체신염</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.033,
+          "y": 0.3602
+        },
+        {
+          "x": 0.106,
+          "y": 0.3602
+        },
+        {
+          "x": 0.106,
+          "y": 0.3721
+        },
+        {
+          "x": 0.033,
+          "y": 0.3721
+        }
+      ],
+      "id": 12,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='13' data-category='paragraph' style='font-size:18px'>사구체신염 은 면역학적 기전으로 콩팔에 염증이 발생하는 질환으로, 흔히 혈뇨나 단백뇨가 발생합니다. 콩팥내 사구체 염증이 심할 경우, 염증세포가 소변에서<br>검출되어 농뇨가 발생할 수 있습니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0339,
+          "y": 0.3772
+        },
+        {
+          "x": 0.6211,
+          "y": 0.3772
+        },
+        {
+          "x": 0.6211,
+          "y": 0.4007
+        },
+        {
+          "x": 0.0339,
+          "y": 0.4007
+        }
+      ],
+      "id": 13,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='14' data-category='paragraph' style='font-size:16px'>5. 급성 요세관사이질 질환</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0327,
+          "y": 0.4219
+        },
+        {
+          "x": 0.133,
+          "y": 0.4219
+        },
+        {
+          "x": 0.133,
+          "y": 0.4329
+        },
+        {
+          "x": 0.0327,
+          "y": 0.4329
+        }
+      ],
+      "id": 14,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='15' data-category='paragraph' style='font-size:18px'>요세관사이질 질환은 콩팔내 요세관이나 사이질에 염증이 발생하는 질환으로, 요세관 혹은 사이질에 염증을 일으키는 약물이나 물질이 침착하거나, 알레르기<br>반응으로 호산구 등이 침착할 때 생길 수 있습니다. 이러한 염증이 심할 경우, 염증세포가 소변에서 검출되어 동뇨가 발생할 수 있습니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0326,
+          "y": 0.438
+        },
+        {
+          "x": 0.6218,
+          "y": 0.438
+        },
+        {
+          "x": 0.6218,
+          "y": 0.4628
+        },
+        {
+          "x": 0.0326,
+          "y": 0.4628
+        }
+      ],
+      "id": 15,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='16' data-category='paragraph' style='font-size:18px'>6. 콩팥경색 또는 요관폐쇄</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0322,
+          "y": 0.4835
+        },
+        {
+          "x": 0.1328,
+          "y": 0.4835
+        },
+        {
+          "x": 0.1328,
+          "y": 0.495
+        },
+        {
+          "x": 0.0322,
+          "y": 0.495
+        }
+      ],
+      "id": 16,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='17' data-category='paragraph' style='font-size:18px'>심장으로 가는 관상동맥이 막히면 심근경색이 발생하듯이, 콩팥으로 가는 공팔동맥이 막히면, 콩팥경색이 발생할 수 있습니다. 막힌 부위 원위부로 괴사 및<br>검색에 생기므로, 여기서 발생한 염증으로 인한 세포들이 소변으로 검출될 수 있습니다? 또한, 결석이나 종양, 혈뇨 등의 요관 속의 병변으로 요관이 막히거나,<br>요관 주위 섬유증, 종양 등의 영향으로 요관 밖의 병변으로 요관이 막히는 경우 요관폐쇄가 발생할 수 있습니다. 요관이 폐쇄가되면 근위부로는 소변 역류 등으로<br>인해 염증이 발생하고 소변검사에서 농뇨가 발생할 수 있습니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0319,
+          "y": 0.4994
+        },
+        {
+          "x": 0.6222,
+          "y": 0.4994
+        },
+        {
+          "x": 0.6222,
+          "y": 0.5507
+        },
+        {
+          "x": 0.0319,
+          "y": 0.5507
+        }
+      ],
+      "id": 17,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='18' style='font-size:22px'>진단 및검사</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0333,
+          "y": 0.569
+        },
+        {
+          "x": 0.1022,
+          "y": 0.569
+        },
+        {
+          "x": 0.1022,
+          "y": 0.5839
+        },
+        {
+          "x": 0.0333,
+          "y": 0.5839
+        }
+      ],
+      "id": 18,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='19' data-category='paragraph' style='font-size:16px'>1. 진단방법</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0337,
+          "y": 0.5917
+        },
+        {
+          "x": 0.0786,
+          "y": 0.5917
+        },
+        {
+          "x": 0.0786,
+          "y": 0.6031
+        },
+        {
+          "x": 0.0337,
+          "y": 0.6031
+        }
+      ],
+      "id": 19,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='20' data-category='paragraph' style='font-size:18px'>공팔 질환이 있는 경우에 대부분 소변검사에서 이상 소견이 동반되기 때문에 소변검사 이상 소견은 콩팔 질환이 있는지를 알 수 있는 중요한 단서가 됩니다. 특히<br>소변검사는 저렴하고, 침습적이지 않고 쉬운 검사이며, 반복적으로 검사가 가능하므로 콩팥 질환을 알아낼 수 있는 중요한 방법입니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0312,
+          "y": 0.6076
+        },
+        {
+          "x": 0.6213,
+          "y": 0.6076
+        },
+        {
+          "x": 0.6213,
+          "y": 0.6315
+        },
+        {
+          "x": 0.0312,
+          "y": 0.6315
+        }
+      ],
+      "id": 20,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='21' data-category='paragraph' style='font-size:18px'>소변검사에서 정확한 결과를 얻기 위해서는 소변을 적절하게 받는 것이 아주 중요합니다. 일반 소변검사를 할 때 첫 소변 100-200 mil 정도는 변기에 누고, 중간<br>소변을 컵에 받은 다음에 검체용기(시험란)에 담아주는 것이 좋습니다. 소변을 받는 시간은 아침 첫 소변이 좋습니다. 생리가 있는 여성인 경우에 피가 소변에<br>물어나올 수 있으므로 생리가 끝난 수 일 후에 실시하는 것이 정확합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0326,
+          "y": 0.6363
+        },
+        {
+          "x": 0.6221,
+          "y": 0.6363
+        },
+        {
+          "x": 0.6221,
+          "y": 0.6715
+        },
+        {
+          "x": 0.0326,
+          "y": 0.6715
+        }
+      ],
+      "id": 21,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='22' data-category='paragraph' style='font-size:18px'>2. 진단 후 추가 검사가 필요한 경우</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0317,
+          "y": 0.6926
+        },
+        {
+          "x": 0.1651,
+          "y": 0.6926
+        },
+        {
+          "x": 0.1651,
+          "y": 0.7047
+        },
+        {
+          "x": 0.0317,
+          "y": 0.7047
+        }
+      ],
+      "id": 22,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='23' data-category='paragraph' style='font-size:18px'>소변검사에서 농뇨가 나오는 경우는 소변배양검사를 같이 시행하여 어떤 세균에 의한감염인지를 알면 도움이 되는 경우가 있으므로 병원에 내원해서 배양검사를<br>실시할지를 상의해야 합니다. 일부 콩팥병에서는 소변검사가 정상으로 나오는 경우가 있습니다. 예를 들어, 급성 신손상, 요로폐쇄, 고칼슘혈증, 다발성골수증과<br>동반된 콩팥병, 혈관염, 신장 경색 등이 있습니다. 따라서 소변검사에서 이상소견이 있는 경우에 당연히 콩팥 병 등에 대해서 검사를 해야 하지만 소변검사에서<br>이상 소견이 없다고 하더라도, 동반된 증상이나 위험인자가 있다면 추가적인 혈액검사, 영상 검사를 통해서 콩팥병을 확인하는 것이 필요할 수 있습니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0324,
+          "y": 0.7089
+        },
+        {
+          "x": 0.622,
+          "y": 0.7089
+        },
+        {
+          "x": 0.622,
+          "y": 0.7571
+        },
+        {
+          "x": 0.0324,
+          "y": 0.7571
+        }
+      ],
+      "id": 23,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='24' style='font-size:20px'>연관 증상</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0336,
+          "y": 0.7756
+        },
+        {
+          "x": 0.0865,
+          "y": 0.7756
+        },
+        {
+          "x": 0.0865,
+          "y": 0.7902
+        },
+        {
+          "x": 0.0336,
+          "y": 0.7902
+        }
+      ],
+      "id": 24,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='25' data-category='paragraph' style='font-size:18px'>세균생 요로감염인 경우에는 증상에 따라 하부요로감염인지 상부요로감염인지 구별할 수 있습니다. 하부요로감염인 방광염은 하복부 통증이나 무지근한 느낌,<br>자주 소변을 보는 증상, 소변을 본 후에도 개운하지 않은 증상, 소변 볼 때 따끔거림 등이 있습니다. 상부요로감염인 신우산염에서는 방광염에서 볼 수 있는 증상<br>이외에도 옆구리 통증과 발열, 구역 구토 등이 동반될 수 있습니다. 한편, 하부 요로 증상이 없이 상부요로감염이 발병하는 경우도 있어 가끔 감기 몸살로<br>오인하고 적절한 치료를 받지 못하는 경우도 있으므로 주의해야 합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0324,
+          "y": 0.7968
+        },
+        {
+          "x": 0.621,
+          "y": 0.7968
+        },
+        {
+          "x": 0.621,
+          "y": 0.8452
+        },
+        {
+          "x": 0.0324,
+          "y": 0.8452
+        }
+      ],
+      "id": 25,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='26' data-category='paragraph' style='font-size:18px'>요로 결핵인 경우에는 특별한 증상이 없는 경우가 많고 체중 감소 등의 소견이 보일 수도 있습니다. 급성사구체염에서는 발열, 전신부증, 혈뇨 및 단백뇨 등이<br>동반되기도 하고, 콩팥경색 또는 요관폐쇄인 경우에는 손상이 발생한 쪽의 옆구리 통증이 동반되기도 합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.033,
+          "y": 0.8497
+        },
+        {
+          "x": 0.6218,
+          "y": 0.8497
+        },
+        {
+          "x": 0.6218,
+          "y": 0.8739
+        },
+        {
+          "x": 0.033,
+          "y": 0.8739
+        }
+      ],
+      "id": 26,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<h1 id='27' style='font-size:20px'>치료</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0334,
+          "y": 0.8923
+        },
+        {
+          "x": 0.06,
+          "y": 0.8923
+        },
+        {
+          "x": 0.06,
+          "y": 0.9067
+        },
+        {
+          "x": 0.0334,
+          "y": 0.9067
+        }
+      ],
+      "id": 27,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='28' data-category='paragraph' style='font-size:18px'>세균생 요로감염인 경우에는 경구 항생제치료를 받으면 대부분 호전되기 때문에 병원을 방문하여 항생제 치료를 받으시는 것이 좋습니다. 신우산염에 의해<br>발열이 심하면 입원해서 주사 항생제 치료를 받아야 합니다. 이외에 농뇨와 동반된 원인에 대한 치료를 해야 합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0325,
+          "y": 0.9142
+        },
+        {
+          "x": 0.6207,
+          "y": 0.9142
+        },
+        {
+          "x": 0.6207,
+          "y": 0.9384
+        },
+        {
+          "x": 0.0325,
+          "y": 0.9384
+        }
+      ],
+      "id": 28,
+      "page": 1
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='29' data-category='paragraph' style='font-size:18px'>간혹 소변검사에서 염증세포가 보이면서 소변배양검사에서 세균이 자라지만 요로감염과 관련된 증상이 없는 경우가 있는데 이런 경우를 무증상성 세균뇨라고<br>합니다. 무증삼성 세균뇨는 특별한 경우 (임산부, 비뇨기계 조작이 예정된 환자 등)를 제외하고는 항생제 등 치료가 필요 없는 경우가 많습니다. 따라서<br>소변검사에서 농뇨가 있다고 해서 반드시 항생제 등의 치료를 하는 것이 아니므로, 병원에서 항생제 치료 여부에 대하여 상의해야 합니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.0325,
+          "y": 0.9433
+        },
+        {
+          "x": 0.6215,
+          "y": 0.9433
+        },
+        {
+          "x": 0.6215,
+          "y": 0.9796
+        },
+        {
+          "x": 0.0325,
+          "y": 0.9796
+        }
+      ],
+      "id": 29,
+      "page": 1
+    },
+    {
+      "category": "heading1",
+      "content": {
+        "html": "<br><h1 id='30' style='font-size:22px'>참고문헌</h1>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.3687,
+          "y": 0.003
+        },
+        {
+          "x": 0.4012,
+          "y": 0.003
+        },
+        {
+          "x": 0.4012,
+          "y": 0.0166
+        },
+        {
+          "x": 0.3687,
+          "y": 0.0166
+        }
+      ],
+      "id": 30,
+      "page": 2
+    },
+    {
+      "category": "list",
+      "content": {
+        "html": "<p id='31' data-category='list' style='font-size:18px'>1. 대한신장학회 (2017). 소변검사와 신기능검사 PART 02.Chapter 01 최규복, 임상신장학 (제2판). 군자출판사.<br>2. 대한신장학회 (2021.09.01). 사구체신염 이해하기. https://player.vimeo.com/video/383944950<br>3. 오윤규, 양철우, 김영림, 강신욱, 박철희, 김윤수, 이은영, 임준수 (2016). Clinical characteristics and outcomes of renal infarction. Am J kidney Dis,<br>67(2), 243-50.<br>4. Centers for Disease Control and Prevention (CDC) (2021). Urinary Tract Infection. https://www.cdc.gov/antibiotic-use/uti.html<br>5. Gilbert, J.& Peter, N. (2015). Sterile Pyuria. The New England Journal of Medicine. 372,1048-1054.<br>6. Manuel, P.& Ester, G. (2010). Acute interstitial nephritis. Kidney International. 77, 956-961.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.3681,
+          "y": 0.0252
+        },
+        {
+          "x": 0.7532,
+          "y": 0.0252
+        },
+        {
+          "x": 0.7532,
+          "y": 0.121
+        },
+        {
+          "x": 0.3681,
+          "y": 0.121
+        }
+      ],
+      "id": 31,
+      "page": 2
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='32' data-category='paragraph' style='font-size:18px'> 관련 건강정보</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.3682,
+          "y": 0.1529
+        },
+        {
+          "x": 0.4118,
+          "y": 0.1529
+        },
+        {
+          "x": 0.4118,
+          "y": 0.1622
+        },
+        {
+          "x": 0.3682,
+          "y": 0.1622
+        }
+      ],
+      "id": 32,
+      "page": 2
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='33' data-category='paragraph' style='font-size:16px'>소변이상(단백뇨) 소변이상(당뇨) 소변이상(혈뇨)</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.3754,
+          "y": 0.1712
+        },
+        {
+          "x": 0.4973,
+          "y": 0.1712
+        },
+        {
+          "x": 0.4973,
+          "y": 0.1833
+        },
+        {
+          "x": 0.3754,
+          "y": 0.1833
+        }
+      ],
+      "id": 33,
+      "page": 2
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='34' data-category='paragraph' style='font-size:20px'>본 공공저작물은 공공누리 \"출처표시+상업적이용금지+변경금지\" 조건에 따라 이용할 수 있<br>습니다.</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.5045,
+          "y": 0.2116
+        },
+        {
+          "x": 0.7412,
+          "y": 0.2116
+        },
+        {
+          "x": 0.7412,
+          "y": 0.2357
+        },
+        {
+          "x": 0.5045,
+          "y": 0.2357
+        }
+      ],
+      "id": 34,
+      "page": 2
+    },
+    {
+      "base64_encoding": "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",
+      "category": "figure",
+      "content": {
+        "html": "<figure id='35'><img style='font-size:14px' alt=\" 목록\" data-coord=\"top-left:(1637,598); bottom-right:(1727,637)\" /></figure>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.5458,
+          "y": 0.2555
+        },
+        {
+          "x": 0.5758,
+          "y": 0.2555
+        },
+        {
+          "x": 0.5758,
+          "y": 0.2718
+        },
+        {
+          "x": 0.5458,
+          "y": 0.2718
+        }
+      ],
+      "id": 35,
+      "page": 2
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<p id='36' data-category='paragraph' style='font-size:18px'>개인정보처리방침 개인정보이용안내 저작권정책 및 웹접근성</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.2647,
+          "y": 0.3096
+        },
+        {
+          "x": 0.4357,
+          "y": 0.3096
+        },
+        {
+          "x": 0.4357,
+          "y": 0.3226
+        },
+        {
+          "x": 0.2647,
+          "y": 0.3226
+        }
+      ],
+      "id": 36,
+      "page": 2
+    },
+    {
+      "category": "list",
+      "content": {
+        "html": "<p id='37' data-category='list' style='font-size:16px'>[ 28159 ] 충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 내 질병관리청<br>문의사항: 02-2030-6602 (평일 9:00-17:00, 12:00-13:00 제외) / 관리자 이메일 : nhis@korea.kr<br>COPYRIGHT @ 2024 질병관리청. ALL RIGHT RESERVED</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.2637,
+          "y": 0.3408
+        },
+        {
+          "x": 0.5071,
+          "y": 0.3408
+        },
+        {
+          "x": 0.5071,
+          "y": 0.3723
+        },
+        {
+          "x": 0.2637,
+          "y": 0.3723
+        }
+      ],
+      "id": 37,
+      "page": 2
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='38' data-category='paragraph' style='font-size:18px'>해외기관  유관기관  정부기관</p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.5525,
+          "y": 0.3428
+        },
+        {
+          "x": 0.7218,
+          "y": 0.3428
+        },
+        {
+          "x": 0.7218,
+          "y": 0.3568
+        },
+        {
+          "x": 0.5525,
+          "y": 0.3568
+        }
+      ],
+      "id": 38,
+      "page": 2
+    },
+    {
+      "category": "paragraph",
+      "content": {
+        "html": "<br><p id='39' data-category='paragraph' style='font-size:18px'></p>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.7342,
+          "y": 0.3451
+        },
+        {
+          "x": 0.7408,
+          "y": 0.3451
+        },
+        {
+          "x": 0.7408,
+          "y": 0.3537
+        },
+        {
+          "x": 0.7342,
+          "y": 0.3537
+        }
+      ],
+      "id": 39,
+      "page": 2
+    },
+    {
+      "base64_encoding": "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",
+      "category": "figure",
+      "content": {
+        "html": "<figure id='40'><img alt=\"\" data-coord=\"top-left:(2152,870); bottom-right:(2260,951)\" /></figure>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.7174,
+          "y": 0.3713
+        },
+        {
+          "x": 0.7533,
+          "y": 0.3713
+        },
+        {
+          "x": 0.7533,
+          "y": 0.4058
+        },
+        {
+          "x": 0.7174,
+          "y": 0.4058
+        }
+      ],
+      "id": 40,
+      "page": 2
+    },
+    {
+      "category": "footer",
+      "content": {
+        "html": "<br><footer id='41' style='font-size:18px'>※ 본 페이지에서 제공하는 내용은 참고사항일 뿐 게시물에 대한 법적책임은 없음을 밝혀드립니다. 자세한 내용은 전문가와 상담하시기 바랍니다.</footer>",
+        "markdown": "",
+        "text": ""
+      },
+      "coordinates": [
+        {
+          "x": 0.2647,
+          "y": 0.39
+        },
+        {
+          "x": 0.6171,
+          "y": 0.39
+        },
+        {
+          "x": 0.6171,
+          "y": 0.4032
+        },
+        {
+          "x": 0.2647,
+          "y": 0.4032
+        }
+      ],
+      "id": 41,
+      "page": 2
+    }
+  ],
+  "merged_elements": [],
+  "model": "document-parse-250116",
+  "ocr": true,
+  "usage": {
+    "pages": 2
+  }
+}

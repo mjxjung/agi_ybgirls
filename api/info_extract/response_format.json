@@ -1,0 +1,58 @@
+{
+  "type": "json_schema",
+  "json_schema": {
+    "name": "document_schema",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the health information document."
+        },
+        "overview": {
+          "type": "string",
+          "description": "A brief overview of the health condition discussed in the document."
+        },
+        "개요": {
+          "type": "string",
+          "description": "개요에 대한 내용입니다."
+        },
+        "역학 및 통계": {
+          "type": "string",
+          "description": "역학 및 통계에 대한 내용입니다."
+        },
+        "위험요인 및 예방": {
+          "type": "string",
+          "description": "위험요인 및 예방에 대한 내용입니다."
+        },
+        "정기 진찰": {
+          "type": "string",
+          "description": "정기 진찰에 대한 내용입니다."
+        },
+        "증상": {
+          "type": "string",
+          "description": "증상에 대한 내용입니다."
+        },
+        "진단 및 검사": {
+          "type": "string",
+          "description": "진단 및 검사에 대한 내용입니다."
+        },
+        "치료": {
+          "type": "string",
+          "description": "치료에 대한 내용입니다."
+        }
+      },
+      "required": [
+        "title",
+        "overview",
+        "개요",
+        "역학 및 통계",
+        "위험요인 및 예방",
+        "정기 진찰",
+        "증상",
+        "진단 및 검사",
+        "치료"
+      ]
+    }
+  }
+}
