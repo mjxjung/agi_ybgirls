@@ -28,7 +28,8 @@ def get_top_disease_candidates(symptom: str) -> list[dict]:
 
     candidates = []
     for disease_name in top_3_diseases:
-        summary = summarize_symptoms(symptom)  # 질병별 요약이 필요하면 수정
+        result = summarize_symptoms(symptom)
+        summary = result["output_text"] if isinstance(result, dict) and "output_text" in result else str(result)
         candidates.append({
             "name": disease_name,
             "description": summary
