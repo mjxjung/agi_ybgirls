@@ -67,8 +67,8 @@ def process_all_files(json_folder, output_folder, mapping_path):
     print(f"✅ 인덱스 매핑 저장 완료: {mapping_path}")
 
 if __name__ == "__main__":
-    json_folder = "../../Database/output/processed_final"
-    output_folder = "../../Database/faiss_index"
+    json_folder = "Database/output/processed_final"
+    output_folder = "Database/faiss_index"
     mapping_path = os.path.join(output_folder, "index_mapping.json")
 
     process_all_files(json_folder, output_folder, mapping_path)
