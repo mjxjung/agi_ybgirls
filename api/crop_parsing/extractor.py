@@ -9,37 +9,50 @@ from datetime import datetime
 
 
 def extract_disease_name(html: str) -> str:
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html, 'html.parser')
+    EXCLUDE_TITLES = {"요약문", "개요", "개요-정의", "정의", "목차"}
 
-    # 1. h1 태그 중 요약문 아닌 것 찾기
+    disease_tag = None
+
+    # 1. h1 태그 중 제외 키워드 아닌 것
     for tag in soup.find_all("h1"):
         text = tag.get_text(strip=True)
+        if text and text not in EXCLUDE_TITLES and re.search(r"[가-힣]", text):
+            disease_tag = tag
+            break
 
-        # '요약문'은 제외
-        if text and text != "요약문" and len(text) <= 15:
-            # 병명은 한글로 이루어진 경우가 많음
-            if re.search(r"[가-힣]", text):
-                return text
-
-    # 2. font-size가 22px인 p/header 태그 중 '요약문' 제외
-    for tag in soup.find_all(["p", "header"]):
-        style = tag.get("style", "")
-        if "font-size:22px" in style:
+    # 2. font-size:22px인 p/header 중 제외 키워드 아닌 것
+    if disease_tag is None:
+        for tag in soup.find_all(["p", "header"]):
+            style = tag.get("style", "")
             text = tag.get_text(strip=True)
-            if text and text != "요약문" and len(text) <= 15:
-                return text
+            if (
+                "font-size:22px" in style and 
+                text and 
+                text not in EXCLUDE_TITLES and 
+                re.search(r"[가-힣]", text)
+            ):
+                disease_tag = tag
+                print("[⚠️] fontsize 22px 태그로 추출했습니다.")
+                break
 
-    # 3. 콘텐츠명 줄에서 병명 찾기
-    for tag in soup.find_all("p"):
-        text = tag.get_text(strip=True)
-        if "콘텐츠명" in text:
-            match = re.search(r"콘텐츠명\s*:\s*(.+)", text)
-            if match:
-                return match.group(1).strip()
+    # 3. 콘텐츠명: 구개열 형식
+    disease_name = disease_tag.get_text(strip=True) if disease_tag else ""
+    if not disease_name.strip():
+        for tag in soup.find_all("p"):
+            text = tag.get_text(strip=True)
+            if "콘텐츠명" in text:
+                match = re.search(r"콘텐츠명\s*:\s*(.+)", text)
+                if match:
+                    disease_name = match.group(1).strip()
+                    break
 
-    print("⚠️ 병명 추출 실패: 기본값 'Unknown Disease' 반환")
-    return "Unknown Disease"
+    if not disease_name.strip():
+        disease_name = "Unknown Disease"
+        print("⚠️ 병명 추출 실패: 기본값 반환")
 
+    print(f"✅ 병명: {disease_name}")
+    return disease_name
 
 def extract_sections(data: dict, disease_name: str) -> list[dict]:
     """
