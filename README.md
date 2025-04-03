@@ -10,10 +10,10 @@
 3. deactivate
 
 ### 크롤링 처리 방법
-(pip freeze > requirements.txt)
-2. pip install -r requirements.txt
-3. python Crawling/diseaseinfo_crop.py
-4. 손수 폴더로 옮겨 담으슈
+- (pip freeze > requirements.txt)
+1. pip install -r requirements.txt
+2. python Crawling/diseaseinfo_crop.py
+3. 손수 폴더로 옮겨 담으슈
 
 ### Upstage parsing Api 일괄 사용 및 전처리
 1. .env 파일 설정
