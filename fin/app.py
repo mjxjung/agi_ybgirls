@@ -86,6 +86,9 @@ if submitted and user_input:
 
     # LangChain으로 질병 추천 요청
     response = get_disease_and_doctors(user_input)
+
+    st.session_state.last_response = response
+    
     st.session_state.messages.append((
         "bot",
         f"다음은 '{response['symptom']}'에 대한 가능성 있는 질병들입니다:\n\n" +

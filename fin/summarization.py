@@ -7,5 +7,5 @@ def summarize_symptoms(disease_symptoms):
     docs = [Document(page_content=disease_symptoms)]
     model = ChatOpenAI(model="gpt-4o-mini")
     chain = load_summarize_chain(model, chain_type="map_reduce")
-    summary = chain.run(docs)
+    summary = chain.invoke(docs)
     return summary
