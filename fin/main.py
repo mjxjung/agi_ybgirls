@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-base_path = './data'
+base_path = './Database/embedding'
 json_folder = 'agi_ybgirls/Database/output/processed_final'
 embedding_csv_path = os.path.join(base_path, "disease_embeddings.csv")
 
