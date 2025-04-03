@@ -1,0 +1,42 @@
+# 환경 설정
+.env
+*.env
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 운영체제에서 생성하는 파일
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# 가상환경
+venv/
+env/
+
+# 로그, 임시 파일
+*.log
+*.tmp
+
+# 토큰/비밀키 등 보안 정보
+secrets.json
+credentials.json
+
+# 빌드 아티팩트 (예: Streamlit, Flask 등에서 생길 수 있음)
+*.db
+*.sqlite3
+__pycache__/
+*.egg-info/
+dist/
+build/
