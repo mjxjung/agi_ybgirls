@@ -1,6 +1,6 @@
 from embedding import embedding_symptoms, compute_disease_symptom_embeddings
 from similarity import similarity_symptoms
-from summarization import summarize_symptoms
+from summarization import summarize_symptoms, summarize_disease_symptoms
 from recommendation import get_recommended_doctors
 from data_loader import load_doctor_data
 import os
@@ -11,7 +11,7 @@ load_dotenv()
 
 # 기본 경로 설정
 base_path = './Database/embedding'
-json_folder = 'agi_ybgirls/Database/output/processed_final'
+json_folder = './Database/output/processed_final'
 embedding_csv_path = os.path.join(base_path, "disease_embeddings.csv")
 recommendation_csv_path = os.path.join(base_path, "doctor_recommendation.csv")
 info_csv_path = os.path.join(base_path, "doctor_info.csv")
@@ -28,7 +28,7 @@ def get_top_disease_candidates(symptom: str) -> list[dict]:
 
     candidates = []
     for disease_name in top_3_diseases:
-        result = summarize_symptoms(symptom)
+        result = summarize_disease_symptoms(json_folder, disease_name)
         summary = result["output_text"] if isinstance(result, dict) and "output_text" in result else str(result)
         candidates.append({
             "name": disease_name,
