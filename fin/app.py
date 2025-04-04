@@ -6,7 +6,7 @@ st.set_page_config(page_title="PreMedix Chatbot", layout="centered")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        ("bot", "서울 보라매병원입니다. 안녕하세요! 어떤 증상이 있으신지 자세히 알려주세요!")
+        ("bot", "안녕하세요! 서울 보라매병원입니다. 어떤 증상이 있으신지 자세히 알려주세요!")
     ]
     st.session_state.selected_disease = None
     st.session_state.doctors = []
@@ -68,9 +68,9 @@ for sender, msg in st.session_state.messages:
                 st.rerun()
         
         st.markdown("<br>", unsafe_allow_html=True)
-        if st.button("🚨 아무 것도 해당하지 않아요"):
+        if st.button("🚨 아무 것도 해당하지 않는 것 같아요"):
             st.session_state.messages.append(("user", "아무 것도 해당하지 않아요"))
-            msg = "\U0001F3E5 보다 정확한 진단과 처치를 위해 방문 접수 하시거나,\n\U0001F4DE 전화 상담을 통해 전문적인 안내를 받아보시길 권해드립니다."
+            msg = "\U0001F3E5 보다 정확한 진단과 처치를 위해 방문 접수 하시거나,\n \U0001F4DE 전화 상담을 통해 전문적인 안내를 받아보시길 권해드립니다."
 
             st.session_state.messages.append(("bot", msg ))
             st.rerun()
