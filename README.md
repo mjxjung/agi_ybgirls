@@ -5,6 +5,17 @@ A RAG-based AI medical assistant service that reduces the burden of nurses by ha
 
 ---
 
+---
+
+### 🏥 Hospital-Specific Department & Doctor Recommendation
+Our service is tailored per hospital by providing specialized departments and medical staff recommendations.
+
+- `embedding/doctor_info.csv`: Contains detailed information about available departments and doctors by hospital.
+- `embedding/doctor_recommendation.csv`: Stores top doctor recommendations based on disease similarity and department match.
+
+These CSV files are integrated into the RAG pipeline to offer personalized and institution-specific medical guidance.
+
+
 ## Installation & Usage
 
 ### 📄 Upstage Parsing API & Preprocessing
